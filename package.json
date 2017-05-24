@@ -1,0 +1,19 @@
+{
+  "name": "strophejs-plugin-roster",
+  "version": "1.0.0",
+  "description": "This plugin implements roster versioning (XEP 0237).",
+  "main": "strophe.roster.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strophe/strophejs-plugin-roster.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/strophe/strophejs-plugin-roster/issues"
+  },
+  "homepage": "https://github.com/strophe/strophejs-plugin-roster#readme"
+}
