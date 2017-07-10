@@ -1,9 +1,11 @@
 {
   "name": "strophejs-plugin-roster",
   "version": "1.0.0",
-  "description": "This plugin implements roster versioning (XEP 0237).",
+  "description": "A strophe.js plugin for Roster Versioning (XEP-0237).",
   "main": "strophe.roster.js",
   "scripts": {
+    "build": "rollup src/strophe.roster.js -f umd -g strophe.js:window -o lib/strophe.roster.js -m",
+    "prepublish": "npm run --silent build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/strophe/strophejs-plugin-roster/issues"
   },
-  "homepage": "https://github.com/strophe/strophejs-plugin-roster#readme"
+  "homepage": "https://github.com/strophe/strophejs-plugin-roster#readme",
+  "devDependencies": {
+    "rollup": "^0.45.0"
+  },
+  "peerDependencies": {
+    "strophe.js": ">=1.2"
+  }
 }
