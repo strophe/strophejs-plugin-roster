@@ -1,6 +1,8 @@
 /*
   Copyright 2010, François de Metz <francois@2metz.fr>
 */
+import { $iq, $pres, Strophe } from 'strophe.js';
+
 /**
  * Roster Plugin
  * Allow easily roster management
