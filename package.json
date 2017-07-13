@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/strophe/strophejs-plugin-roster.git"
   },
-  "author": "",
+  "author": "Strophe plugin developers",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/strophe/strophejs-plugin-roster/issues"
