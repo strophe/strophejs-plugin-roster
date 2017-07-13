@@ -2,7 +2,7 @@
   "name": "strophejs-plugin-roster",
   "version": "1.0.0",
   "description": "A strophe.js plugin for Roster Versioning (XEP-0237).",
-  "main": "strophe.roster.js",
+  "main": "lib/strophe.roster.js",
   "scripts": {
     "build": "rollup src/strophe.roster.js -f umd -g strophe.js:window -o lib/strophe.roster.js -m",
     "prepublish": "npm run --silent build",
