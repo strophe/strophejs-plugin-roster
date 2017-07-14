@@ -1,6 +1,6 @@
 {
   "name": "strophejs-plugin-roster",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A strophe.js plugin for Roster Versioning (XEP-0237).",
   "main": "lib/strophe.roster.js",
   "scripts": {
@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/strophe/strophejs-plugin-roster#readme",
   "devDependencies": {
-    "rollup": "^0.45.0"
+    "rollup": "^0.45.2"
   },
   "peerDependencies": {
     "strophe.js": ">=1.2"
