@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/strophe/strophejs-plugin-roster#readme",
   "devDependencies": {
-    "rollup": "^0.45.0"
+    "rollup": "^0.45.2"
   },
   "peerDependencies": {
     "strophe.js": ">=1.2"
