@@ -471,7 +471,9 @@ Strophe.addConnectionPlugin('roster',
                 groups       : groups,
                 resources    : {}
             };
-            this.items.push(item);
+            if (this.items) {
+                this.items.push(item);
+            }
         }
         else
         {
